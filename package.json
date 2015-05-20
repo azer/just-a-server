@@ -1,0 +1,22 @@
+{
+  "name": "just-a-server",
+  "version": "0.0.0",
+  "description": "A simple and small server with no configuration but enough flexibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "server"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/just-a-server.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "set-content-type": "0.0.3",
+    "style-format": "0.0.0"
+  }
+}
