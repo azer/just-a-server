@@ -1,6 +1,6 @@
 {
   "name": "just-a-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple and small server with no configuration but enough flexibility",
   "main": "index.js",
   "scripts": {
