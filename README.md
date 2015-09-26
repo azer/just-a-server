@@ -21,7 +21,8 @@ Add a callback to do more:
 
 ```js
 var serve = require('just-a-server')
-serve('localhost:8000', function (path, req, res) {
+
+serve('./static', 'localhost:8000', function (path, req, res) {
   if (path == 'yo') {
     res.end('yo')
     return true
